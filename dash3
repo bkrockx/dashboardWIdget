@@ -1,0 +1,16 @@
+view plaincopy to clipboardprint?
+<!-- example : 1 dot -->  
+<div id="dot-container">  
+    <span class="dot"> </span><span class="dot"> </span><span class="dot"> </span><span class="dot"> </span><span class="dot"> </span><span class="dot"> </span>  
+</div>  
+  
+<!-- example : dot groups -->  
+<div id="dot-container">  
+    <div style="margin-left:0em; margin-bottom: -.5em">  
+        <span class="dot"> </span><span class="dot"> </span><span class="dot"> </span><span class="dot"> </span><span class="dot"> </span><span class="dot"> </span>  
+    </div>  
+    <div style="margin-left:0.4em; margin-bottom: -.5em">  
+        <span class="dot"> </span><span class="dot"> </span><span class="dot"> </span><span class="dot"> </span>  
+    </div>  
+</div>  
+

@@ -1,0 +1,23 @@
+
+//Create base variable, check document width and count how much dot per line.  
+var a, b, element = '';  
+documentWidth       = $(window).width();  
+dotLength           = parseInt(documentWidth/10);  
+  
+//Loop dot per line  
+for(a=0; a<= 11; a++) {  
+  
+    //Check is even or odd to add some pixel to the margin left  
+    className= ((a%2) == 0) ? '0' : '0.4em';  
+    element     = element + '<div style="margin-left:'+className+'; margin-bottom: -.5em">\n';  
+  
+        //Loop to create the dot  
+        for(b=0; b<=dotLength; b++) {  
+            element = element + '\t<span class="dot"> </span>';  
+        }  
+  
+    element = element + '</div>';  
+}  
+  
+//Insert dots on #dot-container  
+$('#dot-container').html(element);  

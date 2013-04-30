@@ -1,0 +1,9 @@
+<div id="dashboard">  
+    <img src="images/toggle.png" id="toggle">  
+    <div id="dashboard-menu">  
+        <!-- list of widgets -->  
+    </div>  
+    <div id="dot-container">  
+        <!-- dots groups -->  
+    </div>  
+</div>  

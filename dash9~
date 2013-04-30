@@ -1,0 +1,20 @@
+//Add event toggle on #toggle  
+$('#toggle').toggle(  
+  
+    function() {  
+  
+        //Rotate toggle  
+        $(this).stop().animate({rotate : '-=45deg'});  
+        $('#dashboard').stop().animate({bottom : '0px'});  
+        $('#dashboard-menu').stop().animate({left : '3em'});  
+    },  
+  
+    function() {  
+  
+        //Revert rotate toggle  
+        $(this).stop().animate({rotate : '0deg'});  
+        $('#dashboard').stop().animate({bottom : '-150px'}, 700);  
+        $('#dashboard-menu').stop().animate({left : '-65em'});  
+    }  
+);  
+
